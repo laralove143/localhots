@@ -8,10 +8,13 @@ body {
     text-align: center;
     background-color: black;
     line-height: 2em;
+    font-size: 3vh;
 }
 
 a {
+    display: inline-block;
     padding: 0.5em;
+    line-height: 1em;
     border-radius: 0.5em;
     color: white;
     background-color: darkgreen;
@@ -33,7 +36,7 @@ a:hover, .webdev-container:hover, .horny-container:hover, .footer-container:hove
 
 .webdev-container, .horny-container, .footer-container, .help-container {
     width: 100%;
-    padding: 1em;
+    padding: 1rem;
 }
 
 .webdev-container {
@@ -59,13 +62,17 @@ a:hover, .webdev-container:hover, .horny-container:hover, .footer-container:hove
 .help {
     font-size: x-large;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 4rem;
 }
 
 .footer-container {
     background-color: lightgreen;
     position: fixed;
     bottom: 0;
+}
+
+.footer a {
+    line-height: 0.5em;
 }
 
 .footer {
