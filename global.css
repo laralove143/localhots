@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    background-color: black;
+    line-height: 2em;
+}
+
+a {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+    background-color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, .webdev-container:hover, .horny-container:hover, .footer-container:hover, .help-container:hover {
+    filter: brightness(125%);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.webdev-container, .horny-container, .footer-container, .help-container {
+    width: 100%;
+    padding: 1em;
+}
+
+.webdev-container {
+    background-color: paleturquoise;
+}
+
+.webdev {
+    font-family: "Monaco", monospace;
+}
+
+.horny-container {
+    background-color: palevioletred;
+}
+
+.horny {
+    font-family: "Georgia", serif;
+}
+
+.help-container {
+    background-color: palegoldenrod;
+}
+
+.help {
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.footer-container {
+    background-color: lightgreen;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer {
+    font-size: small;
+    line-height: 1em;
+}
